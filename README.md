@@ -349,7 +349,7 @@ alerts:
 
 ## 📞 Información del Desarrollador
 
-**Estudiante**: Anyelo Pérez  
+**Estudiante**: Anyelo Bustos  
 **Email**: sen.programador@gmail.com  
 **GitHub**: daisersenpro  
 **Repositorio**: https://github.com/daisersenpro/automatizacion-prueba-u2
