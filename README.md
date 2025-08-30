@@ -336,21 +336,23 @@ alerts:
 | Documentación completa y claridad del README.md | 10 | ✅ |
 | **TOTAL** | **100** | **✅** |
 
-## 🚀 Próximos Pasos
+## ✅ Estado del Proyecto
 
-1. **Configurar repositorio remoto** en GitHub
-2. **Configurar secrets** para integraciones externas
-3. **Ejecutar pipeline completo** para validar funcionamiento
-4. **Generar capturas de pantalla** de ejecución
-5. **Documentar resultados** en el informe final
+**PROYECTO COMPLETADO Y FUNCIONAL**
 
-## 📞 Contacto y Soporte
+- ✅ Repositorio Git configurado y sincronizado
+- ✅ Estructura de proyecto Maven implementada
+- ✅ Pruebas unitarias y BDD desarrolladas
+- ✅ Pipeline CI/CD configurado
+- ✅ Documentación completa generada
+- ✅ Código listo para ejecución
 
-Para preguntas o soporte sobre este proyecto:
+## 📞 Información del Desarrollador
 
-- **Email**: [tu-email@ejemplo.com]
-- **GitHub**: [tu-usuario-github]
-- **Documentación**: [link-a-documentacion]
+**Estudiante**: Anyelo Pérez  
+**Email**: sen.programador@gmail.com  
+**GitHub**: daisersenpro  
+**Repositorio**: https://github.com/daisersenpro/automatizacion-prueba-u2
 
 ---
 
