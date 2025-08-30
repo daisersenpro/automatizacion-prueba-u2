@@ -18,9 +18,9 @@
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>5.9.2</junit.version>
-        <cucumber.version>7.11.1</cucumber.version>
+        <cucumber.version>7.8.1</cucumber.version>
         <selenium.version>4.8.1</selenium.version>
-        <allure.version>2.21.0</allure.version>
+        <allure.version>2.20.1</allure.version>
         <gatling.version>3.8.4</gatling.version>
     </properties>
 
@@ -30,6 +30,14 @@
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
             <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+        
+        <!-- JUnit Platform Suite para Cucumber -->
+        <dependency>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-suite</artifactId>
+            <version>1.9.2</version>
             <scope>test</scope>
         </dependency>
 
@@ -101,7 +109,7 @@
                 <version>3.0.0</version>
                 <configuration>
                     <argLine>
-                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/1.9.19/aspectjweaver-1.9.19.jar"
                     </argLine>
                     <systemProperties>
                         <property>
